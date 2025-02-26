@@ -5,36 +5,17 @@ This is a simple REST API built with Node.js and Express.js to manage a collecti
 ## Features
 
 - **GET /books** → Retrieve all books
-  - Optional query parameters for filtering: `?title=`, `?author=`, `?year=`
 - **GET /books/:id** → Retrieve a single book by its ID
 - **POST /books** → Add a new book
   - Fields: `title`, `author`, `year`
   - Auto-generates a unique `id` for each book
 - **PUT /books/:id** → Update an existing book
-  - Supports partial updates (like changing only the `title` or `year`)
 - **DELETE /books/:id** → Remove a book by its ID
 
 ## Data Storage
 
 - Book data is stored in a `books.json` file
 - The API reads and writes to this file safely
-
-## Error Handling
-
-- Proper HTTP status codes (`400`, `404`, `500`, etc.)
-- Consistent response structure: `{ success: true, data: ..., message: ... }`
-- Handles validation errors, missing fields, and file read/write failures
-
-
-## Extra Features (Optional)
-
-- Pagination: `?page=1&limit=10`
-- Sorting: `?sort=title&order=asc`
-- Search: `?q=some-text`
-- Middleware for request logging (like `morgan`)
-- Environment variables using `dotenv`
-- Modularized routes and controllers
-- Caching to minimize file reads
 
 
 ## Project Structure
