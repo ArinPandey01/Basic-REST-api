@@ -1,57 +1,75 @@
-# REST API for Book Management
+# Book Management System
 
-This is a simple REST API built with Node.js and Express.js to manage a collection of books. The API performs CRUD operations and stores data in a JSON file.
-
-## Features
-
-- **GET /books** → Retrieve all books
-- **GET /books/:id** → Retrieve a single book by its ID
-- **POST /books** → Add a new book
-  - Fields: `title`, `author`, `year`
-  - Auto-generates a unique `id` for each book
-- **PUT /books/:id** → Update an existing book
-- **DELETE /books/:id** → Remove a book by its ID
-
-## Data Storage
-
-- Book data is stored in a `books.json` file
-- The API reads and writes to this file safely
-
+This is a full-stack Book Management System built with Express.js for the backend and HTML, CSS, and vanilla JavaScript for the frontend. It allows you to manage a collection of books with features like adding, updating, and deleting books.
 
 ## Project Structure
 
 ```
-book-management-api/
-│
-├── controllers/            # Logic for handling requests
-│   ├── bookController.js   # CRUD functions for books
-│
-├── routes/                 # API route definitions
-│   ├── bookRoutes.js       # Routes for book operations
-│
-├── data/                   # Data storage
-│   ├── books.json          # JSON file for book data
-│
-├── middleware/             # Custom middleware (optional)
-│   ├── logger.js           # Logs incoming requests
-│
-├── utils/                  # Utility functions (optional)
-│   ├── fileHelper.js       # Functions for reading/writing JSON
-│
-├── .env                    # Environment variables
-├── .gitignore              # Files to ignore in Git
-├── package.json            # Project dependencies and scripts
-├── server.js               # Express app and server configuration
-├── README.md               # Project documentation
+project-root/
+|-- data/
+|   |-- books.json            # JSON file storing book data
+|-- public/
+|   |-- index.html            # Frontend HTML
+|   |-- style.css             # Frontend CSS
+|   |-- script.js             # Frontend JavaScript
+|-- controllers/
+|   |-- bookControllers.js    # Controller functions for book routes
+|-- middleware/
+|   |-- logger.js             # Middleware for logging requests
+|-- routes/
+|   |-- bookRoutes.js         # Express routes for book API
+|-- utils/
+|   |-- fileHelper.js         # Helper functions for file read/write
+|-- server.js                 # Express server setup
+|-- README.md                 # Project documentation
 ```
 
-## Endpoints
+## Setup Instructions
 
-| Method | Endpoint        | Description              |
-|--------|-----------------|--------------------------|
-| GET    | /books          | Get all books            |
-| GET    | /books/:id      | Get a single book by ID  |
-| POST   | /books          | Add a new book           |
-| PUT    | /books/:id      | Update an existing book  |
-| DELETE | /books/:id      | Delete a book by ID      |
+1. **Clone the Repository:**
+```bash
+git clone https://github.com/your-repo/book-management-system.git
+cd book-management-system
+```
+
+2. **Install Dependencies:**
+```bash
+npm install express
+```
+
+3. **Run the Server:**
+```bash
+node server.js
+```
+Server will start at `http://localhost:3000`
+
+4. **Access the Frontend:**
+Open your browser and go to `http://localhost:3000/`
+
+## API Endpoints
+
+| Method | Endpoint       | Description           |
+|--------|----------------|----------------------|
+| GET    | `/books`        | Get all books         |
+| GET    | `/books/:id`    | Get a single book     |
+| POST   | `/books`        | Add a new book        |
+| PUT    | `/books/:id`    | Update a book         |
+| DELETE | `/books/:id`    | Delete a book         |
+
+## Frontend Functionality
+
+- **Add Book:** Fill the form and click `Add Book`.
+- **Edit Book:** Click `Edit`, provide new details.
+- **Delete Book:** Click `Delete` to remove a book.
+
+## Logger Middleware
+Logs every request method, URL, and date to the console.
+
+## File Storage
+Books are stored in `data/books.json` in JSON format.
+
+## Future Improvements
+- Add form validation.
+- Show notifications on success or failure.
+- Implement better UI with more styles.
 
