@@ -4,7 +4,7 @@
   "description": "This is a simple REST API built with Node.js and Express.js to manage a collection of books. The API performs CRUD operations and stores data in a JSON file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ArinPandey01/Basic-REST-api#readme",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }

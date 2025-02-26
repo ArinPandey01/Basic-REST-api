@@ -1,596 +1,602 @@
 [
-    {
-      "id": 1,
-      "name": "The Hitchhiker's Guide to the Galaxy",
-      "author": "Douglas Adams",
-      "year": 1979
-    },
-    {
-      "id": 2,
-      "name": "1984",
-      "author": "George Orwell",
-      "year": 1949
-    },
-    {
-      "id": 3,
-      "name": "Diary of a young girl",
-      "author": "Anne Frank",
-      "year": 1947
-    },
-    {
-      "id": 4,
-      "name": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "year": 1960
-    },
-    {
-      "id": 5,
-      "name": "The Lord of the Rings",
-      "author": "J.R.R. Tolkien",
-      "year": 1954
-    },
-    {
-      "id": 6,
-      "name": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "year": 1951
-    },
-    {
-      "id": 7,
-      "name": "Moby-Dick",
-      "author": "Herman Melville",
-      "year": 1851
-    },
-    {
-      "id": 8,
-      "name": "Jane Eyre",
-      "author": "Charlotte Brontë",
-      "year": 1847
-    },
-    {
-      "id": 9,
-      "name": "Little Women",
-      "author": "Louisa May Alcott",
-      "year": 1868
-    },
-    {
-      "id": 10,
-      "name": "One Hundred Years of Solitude",
-      "author": "Gabriel García Márquez",
-      "year": 1967
-    },
-    {
-      "id": 11,
-      "name": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "year": 1925
-    },
-    {
-      "id": 12,
-      "name": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "year": 1866
-    },
-    {
-      "id": 13,
-      "name": "Wuthering Heights",
-      "author": "Emily Brontë",
-      "year": 1847
-    },
-    {
-      "id": 14,
-      "name": "Alice's Adventures in Wonderland",
-      "author": "Lewis Carroll",
-      "year": 1865
-    },
-    {
-      "id": 15,
-      "name": "The Adventures of Sherlock Holmes",
-      "author": "Arthur Conan Doyle",
-      "year": 1892
-    },
-    {
-      "id": 16,
-      "name": "Frankenstein",
-      "author": "Mary Shelley",
-      "year": 1818
-    },
-    {
-      "id": 17,
-      "name": "Dracula",
-      "author": "Bram Stoker",
-      "year": 1897
-    },
-    {
-      "id": 18,
-      "name": "The Picture of Dorian Gray",
-      "author": "Oscar Wilde",
-      "year": 1890
-    },
-    {
-      "id": 19,
-      "name": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "year": 1937
-    },
-    {
-      "id": 20,
-      "name": "The Color Purple",
-      "author": "Alice Walker",
-      "year": 1982
-    },
-    {
-      "id": 21,
-      "name": "Brave New World",
-      "author": "Aldous Huxley",
-      "year": 1932
-    },
-    {
-      "id": 22,
-      "name": "Catch-22",
-      "author": "Joseph Heller",
-      "year": 1961
-    },
-    {
-      "id": 23,
-      "name": "The Book Thief",
-      "author": "Markus Zusak",
-      "year": 2005
-    },
-    {
-      "id": 24,
-      "name": "Harry Potter and the Sorcerer's Stone",
-      "author": "J.K. Rowling",
-      "year": 1997
-    },
-    {
-      "id": 25,
-      "name": "The Road",
-      "author": "Cormac McCarthy",
-      "year": 2006
-    },
-    {
-      "id": 26,
-      "name": "The Very Hungry Caterpillar",
-      "author": "Eric Carle",
-      "year": 1969
-    },
-    {
-      "id": 27,
-      "name": "The Giving Tree",
-      "author": "Shel Silverstein",
-      "year": 1964
-    },
-    {
-      "id": 28,
-      "name": "Where the Wild Things Are",
-      "author": "Maurice Sendak",
-      "year": 1963
-    },
-    {
-      "id": 29,
-      "name": "Goodnight Moon",
-      "author": "Margaret Wise Brown",
-      "year": 1947
-    },
-    {
-      "id": 30,
-      "name": "The Cat in the Hat",
-      "author": "Dr. Seuss",
-      "year": 1957
-    },
-    {
-      "id": 31,
-      "name": "Green Eggs and Ham",
-      "author": "Dr. Seuss",
-      "year": 1960
-    },
-    {
-      "id": 32,
-      "name": "The Lorax",
-      "author": "Dr. Seuss",
-      "year": 1971
-    },
-    {
-      "id": 33,
-      "name": "Oh, the Places You'll Go!",
-      "author": "Dr. Seuss",
-      "year": 1990
-    },
-    {
-      "id": 34,
-      "name": "The Chronicles of Narnia",
-      "author": "C.S. Lewis",
-      "year": 1950
-    },
-    {
-      "id": 35,
-      "name": "And Then There Were None",
-      "author": "Agatha Christie",
-      "year": 1939
-    },
-    {
-      "id": 36,
-      "name": "Murder on the Orient Express",
-      "author": "Agatha Christie",
-      "year": 1934
-    },
-    {
-      "id": 37,
-      "name": "The Secret Garden",
-      "author": "Frances Hodgson Burnett",
-      "year": 1911
-    },
-    {
-      "id": 38,
-      "name": "Anne of Green Gables",
-      "author": "L.M. Montgomery",
-      "year": 1908
-    },
-    {
-      "id": 39,
-      "name": "A Little Princess",
-      "author": "Frances Hodgson Burnett",
-      "year": 1905
-    },
-    {
-      "id": 40,
-      "name": "Heidi",
-      "author": "Johanna Spyri",
-      "year": 1881
-    },
-    {
-      "id": 41,
-      "name": "Treasure Island",
-      "author": "Robert Louis Stevenson",
-      "year": 1883
-    },
-    {
-      "id": 42,
-      "name": "The Call of the Wild",
-      "author": "Jack London",
-      "year": 1903
-    },
-    {
-      "id": 43,
-      "name": "White Fang",
-      "author": "Jack London",
-      "year": 1906
-    },
-    {
-      "id": 44,
-      "name": "The Wind in the Willows",
-      "author": "Kenneth Grahame",
-      "year": 1908
-    },
-    {
-      "id": 45,
-      "name": "Peter Pan",
-      "author": "J.M. Barrie",
-      "year": 1911
-    },
-    {
-      "id": 46,
-      "name": "The War of the Worlds",
-      "author": "H.G. Wells",
-      "year": 1898
-    },
-    {
-      "id": 47,
-      "name": "The Time Machine",
-      "author": "H.G. Wells",
-      "year": 1895
-    },
-    {
-      "id": 48,
-      "name": "The Invisible Man",
-      "author": "H.G. Wells",
-      "year": 1897
-    },
-    {
-      "id": 49,
-      "name": "The Island of Doctor Moreau",
-      "author": "H.G. Wells",
-      "year": 1896
-    },
-    {
-      "id": 50,
-      "name": "The Jungle Book",
-      "author": "Rudyard Kipling",
-      "year": 1894
-    },
-    {
-      "id": 51,
-      "name": "The Count of Monte Cristo",
-      "author": "Alexandre Dumas",
-      "year": 1844
-    },
-    {
-      "id": 52,
-      "name": "The Three Musketeers",
-      "author": "Alexandre Dumas",
-      "year": 1844
-    },
-    {
-      "id": 53,
-      "name": "The Scarlet Letter",
-      "author": "Nathaniel Hawthorne",
-      "year": 1850
-    },
-    {
-      "id": 54,
-      "name": "The House of the Seven Gables",
-      "author": "Nathaniel Hawthorne",
-      "year": 1851
-    },
-    {
-      "id": 55,
-      "name": "Les Misérables",
-      "author": "Victor Hugo",
-      "year": 1862
-    },
-    {
-      "id": 56,
-      "name": "The Hunchback of Notre-Dame",
-      "author": "Victor Hugo",
-      "year": 1831
-    },
-    {
-      "id": 57,
-      "name": "War and Peace",
-      "author": "Leo Tolstoy",
-      "year": 1869
-    },
-    {
-      "id": 58,
-      "name": "Anna Karenina",
-      "author": "Leo Tolstoy",
-      "year": 1878
-    },
-    {
-      "id": 59,
-      "name": "David Copperfield",
-      "author": "Charles Dickens",
-      "year": 1850
-    },
-    {
-      "id": 60,
-      "name": "Oliver Twist",
-      "author": "Charles Dickens",
-      "year": 1838
-    },
-    {
-      "id": 61,
-      "name": "Great Expectations",
-      "author": "Charles Dickens",
-      "year": 1861
-    },
-    {
-      "id": 62,
-      "name": "A Tale of Two Cities",
-      "author": "Charles Dickens",
-      "year": 1859
-    },
-    {
-      "id": 63,
-      "name": "The Odyssey",
-      "author": "Homer",
-      "year": -800
-    },
-    {
-      "id": 64,
-      "name": "The Iliad",
-      "author": "Homer",
-      "year": -800
-    },
-    {
-      "id": 65,
-      "name": "Don Quixote",
-      "author": "Miguel de Cervantes",
-      "year": 1605
-    },
-    {
-      "id": 66,
-      "name": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "year": 1320
-    },
-    {
-      "id": 67,
-      "name": "The Canterbury Tales",
-      "author": "Geoffrey Chaucer",
-      "year": 1400
-    },
-    {
-      "id": 68,
-      "name": "One Thousand and One Nights",
-      "author": "Anonymous",
-      "year": 800
-    },
-    {
-      "id": 69,
-      "name": "The Decameron",
-      "author": "Giovanni Boccaccio",
-      "year": 1353
-    },
-    {
-      "id": 70,
-      "name": "The Brothers Karamazov",
-      "author": "Fyodor Dostoevsky",
-      "year": 1880
-    },
-    {
-      "id": 71,
-      "name": "The Idiot",
-      "author": "Fyodor Dostoevsky",
-      "year": 1869
-    },
-    {
-      "id": 72,
-      "name": "Demons",
-      "author": "Fyodor Dostoevsky",
-      "year": 1872
-    },
-    {
-      "id": 73,
-      "name": "Notes from Underground",
-      "author": "Fyodor Dostoevsky",
-      "year": 1864
-    },
-    {
-      "id": 74,
-      "name": "The Master and Margarita",
-      "author": "Mikhail Bulgakov",
-      "year": 1967
-    },
-    {
-      "id": 75,
-      "name": "Doctor Zhivago",
-      "author": "Boris Pasternak",
-      "year": 1957
-    },
-    {
-      "id": 76,
-      "name": "Lolita",
-      "author": "Vladimir Nabokov",
-      "year": 1955
-    },
-    {
-      "id": 77,
-      "name": "Pale Fire",
-      "author": "Vladimir Nabokov",
-      "year": 1962
-    },
-    {
-      "id": 78,
-      "name": "Speak, Memory",
-      "author": "Vladimir Nabokov",
-      "year": 1951
-    },
-    {
-      "id": 79,
-      "name": "The Stranger",
-      "author": "Albert Camus",
-      "year": 1942
-    },
-    {
-      "id": 80,
-      "name": "The Plague",
-      "author": "Albert Camus",
-      "year": 1947
-    },
-    {
-      "id": 81,
-      "name": "The Myth of Sisyphus",
-      "author": "Albert Camus",
-      "year": 1942
-    },
-    {
-      "id": 82,
-      "name": "The Fall",
-      "author": "Albert Camus",
-      "year": 1956
-    },
-    {
-      "id": 83,
-      "name": "The Handmaid's Tale",
-      "author": "Margaret Atwood",
-      "year": 1985
-    },
-    {
-      "id": 84,
-      "name": "The Blind Assassin",
-      "author": "Margaret Atwood",
-      "year": 2000
-    },
-    {
-      "id": 85,
-      "name": "Alias Grace",
-      "author": "Margaret Atwood",
-      "year": 1996
-    },
-    {
-      "id": 86,
-      "name": "Oryx and Crake",
-      "author": "Margaret Atwood",
-      "year": 2003
-    },
-    {
-      "id": 87,
-      "name": "Beloved",
-      "author": "Toni Morrison",
-      "year": 1987
-    },
-    {
-      "id": 88,
-      "name": "Song of Solomon",
-      "author": "Toni Morrison",
-      "year": 1977
-    },
-    {
-      "id": 89,
-      "name": "Sula",
-      "author": "Toni Morrison",
-      "year": 1973
-    },
-    {
-      "id": 90,
-      "name": "The Bluest Eye",
-      "author": "Toni Morrison",
-      "year": 1970
-    },
-    {
-      "id": 91,
-      "name": "A Brief History of Time",
-      "author": "Stephen Hawking",
-      "year": 1988
-    },
-    {
-      "id": 92,
-      "name": "Sapiens: A Brief History of Humankind",
-      "author": "Yuval Noah Harari",
-      "year": 2011
-    },
-    {
-      "id": 93,
-      "name": "Homo Deus: A Brief History of Tomorrow",
-      "author": "Yuval Noah Harari",
-      "year": 2015
-    },
-    {
-      "id": 94,
-      "name": "21 Lessons for the 21st Century",
-      "author": "Yuval Noah Harari",
-      "year": 2018
-    },
-    {
-      "id": 95,
-      "name": "Thinking, Fast and Slow",
-      "author": "Daniel Kahneman",
-      "year": 2011
-    },
-    {
-      "id": 96,
-      "name": "The Power of Habit",
-      "author": "Charles Duhigg",
-      "year": 2012
-    },
-    {
-      "id": 97,
-      "name": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
-      "author": "Susan Cain",
-      "year": 2012
-    },
-    {
-      "id": 98,
-      "name": "The Life-Changing Magic of Tidying Up",
-      "author": "Marie Kondo",
-      "year": 2011
-    },
-    {
-      "id": 99,
-      "name": "Educated",
-      "author": "Tara Westover",
-      "year": 2018
-    }
-  ]
+  {
+    "id": 1,
+    "name": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "year": 1979
+  },
+  {
+    "id": 2,
+    "name": "1984",
+    "author": "George Orwell",
+    "year": 1949
+  },
+  {
+    "id": 3,
+    "name": "Diary of a young girl",
+    "author": "Anne Frank",
+    "year": 1947
+  },
+  {
+    "id": 4,
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960
+  },
+  {
+    "id": 5,
+    "name": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "year": 1954
+  },
+  {
+    "id": 6,
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951
+  },
+  {
+    "id": 7,
+    "name": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851
+  },
+  {
+    "id": 8,
+    "name": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847
+  },
+  {
+    "id": 9,
+    "name": "Little Women",
+    "author": "Louisa May Alcott",
+    "year": 1868
+  },
+  {
+    "id": 10,
+    "name": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "year": 1967
+  },
+  {
+    "id": 11,
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925
+  },
+  {
+    "id": 12,
+    "name": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866
+  },
+  {
+    "id": 13,
+    "name": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847
+  },
+  {
+    "id": 14,
+    "name": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "year": 1865
+  },
+  {
+    "id": 15,
+    "name": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "year": 1892
+  },
+  {
+    "id": 16,
+    "name": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818
+  },
+  {
+    "id": 17,
+    "name": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897
+  },
+  {
+    "id": 18,
+    "name": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890
+  },
+  {
+    "id": 19,
+    "name": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937
+  },
+  {
+    "id": 20,
+    "name": "The Color Purple",
+    "author": "Alice Walker",
+    "year": 1982
+  },
+  {
+    "id": 21,
+    "name": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932
+  },
+  {
+    "id": 22,
+    "name": "Catch-22",
+    "author": "Joseph Heller",
+    "year": 1961
+  },
+  {
+    "id": 23,
+    "name": "The Book Thief",
+    "author": "Markus Zusak",
+    "year": 2005
+  },
+  {
+    "id": 24,
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "year": 1997
+  },
+  {
+    "id": 25,
+    "name": "The Road",
+    "author": "Cormac McCarthy",
+    "year": 2006
+  },
+  {
+    "id": 26,
+    "name": "The Very Hungry Caterpillar",
+    "author": "Eric Carle",
+    "year": 1969
+  },
+  {
+    "id": 27,
+    "name": "The Giving Tree",
+    "author": "Shel Silverstein",
+    "year": 1964
+  },
+  {
+    "id": 28,
+    "name": "Where the Wild Things Are",
+    "author": "Maurice Sendak",
+    "year": 1963
+  },
+  {
+    "id": 29,
+    "name": "Goodnight Moon",
+    "author": "Margaret Wise Brown",
+    "year": 1947
+  },
+  {
+    "id": 30,
+    "name": "The Cat in the Hat",
+    "author": "Dr. Seuss",
+    "year": 1957
+  },
+  {
+    "id": 31,
+    "name": "Green Eggs and Ham",
+    "author": "Dr. Seuss",
+    "year": 1960
+  },
+  {
+    "id": 32,
+    "name": "The Lorax",
+    "author": "Dr. Seuss",
+    "year": 1971
+  },
+  {
+    "id": 33,
+    "name": "Oh, the Places You'll Go!",
+    "author": "Dr. Seuss",
+    "year": 1990
+  },
+  {
+    "id": 34,
+    "name": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "year": 1950
+  },
+  {
+    "id": 35,
+    "name": "And Then There Were None",
+    "author": "Agatha Christie",
+    "year": 1939
+  },
+  {
+    "id": 36,
+    "name": "Murder on the Orient Express",
+    "author": "Agatha Christie",
+    "year": 1934
+  },
+  {
+    "id": 37,
+    "name": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "year": 1911
+  },
+  {
+    "id": 38,
+    "name": "Anne of Green Gables",
+    "author": "L.M. Montgomery",
+    "year": 1908
+  },
+  {
+    "id": 39,
+    "name": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
+    "year": 1905
+  },
+  {
+    "id": 40,
+    "name": "Heidi",
+    "author": "Johanna Spyri",
+    "year": 1881
+  },
+  {
+    "id": 41,
+    "name": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883
+  },
+  {
+    "id": 42,
+    "name": "The Call of the Wild",
+    "author": "Jack London",
+    "year": 1903
+  },
+  {
+    "id": 43,
+    "name": "White Fang",
+    "author": "Jack London",
+    "year": 1906
+  },
+  {
+    "id": 44,
+    "name": "The Wind in the Willows",
+    "author": "Kenneth Grahame",
+    "year": 1908
+  },
+  {
+    "id": 45,
+    "name": "Peter Pan",
+    "author": "J.M. Barrie",
+    "year": 1911
+  },
+  {
+    "id": 46,
+    "name": "The War of the Worlds",
+    "author": "H.G. Wells",
+    "year": 1898
+  },
+  {
+    "id": 47,
+    "name": "The Time Machine",
+    "author": "H.G. Wells",
+    "year": 1895
+  },
+  {
+    "id": 48,
+    "name": "The Invisible Man",
+    "author": "H.G. Wells",
+    "year": 1897
+  },
+  {
+    "id": 49,
+    "name": "The Island of Doctor Moreau",
+    "author": "H.G. Wells",
+    "year": 1896
+  },
+  {
+    "id": 50,
+    "name": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894
+  },
+  {
+    "id": 51,
+    "name": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844
+  },
+  {
+    "id": 52,
+    "name": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "year": 1844
+  },
+  {
+    "id": 53,
+    "name": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850
+  },
+  {
+    "id": 54,
+    "name": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne",
+    "year": 1851
+  },
+  {
+    "id": 55,
+    "name": "Les Misérables",
+    "author": "Victor Hugo",
+    "year": 1862
+  },
+  {
+    "id": 56,
+    "name": "The Hunchback of Notre-Dame",
+    "author": "Victor Hugo",
+    "year": 1831
+  },
+  {
+    "id": 57,
+    "name": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869
+  },
+  {
+    "id": 58,
+    "name": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1878
+  },
+  {
+    "id": 59,
+    "name": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850
+  },
+  {
+    "id": 60,
+    "name": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838
+  },
+  {
+    "id": 61,
+    "name": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861
+  },
+  {
+    "id": 62,
+    "name": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859
+  },
+  {
+    "id": 63,
+    "name": "The Odyssey",
+    "author": "Homer",
+    "year": -800
+  },
+  {
+    "id": 64,
+    "name": "The Iliad",
+    "author": "Homer",
+    "year": -800
+  },
+  {
+    "id": 65,
+    "name": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "year": 1605
+  },
+  {
+    "id": 66,
+    "name": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "year": 1320
+  },
+  {
+    "id": 67,
+    "name": "The Canterbury Tales",
+    "author": "Geoffrey Chaucer",
+    "year": 1400
+  },
+  {
+    "id": 68,
+    "name": "One Thousand and One Nights",
+    "author": "Anonymous",
+    "year": 800
+  },
+  {
+    "id": 69,
+    "name": "The Decameron",
+    "author": "Giovanni Boccaccio",
+    "year": 1353
+  },
+  {
+    "id": 70,
+    "name": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "year": 1880
+  },
+  {
+    "id": 71,
+    "name": "The Idiot",
+    "author": "Fyodor Dostoevsky",
+    "year": 1869
+  },
+  {
+    "id": 72,
+    "name": "Demons",
+    "author": "Fyodor Dostoevsky",
+    "year": 1872
+  },
+  {
+    "id": 73,
+    "name": "Notes from Underground",
+    "author": "Fyodor Dostoevsky",
+    "year": 1864
+  },
+  {
+    "id": 74,
+    "name": "The Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "year": 1967
+  },
+  {
+    "id": 75,
+    "name": "Doctor Zhivago",
+    "author": "Boris Pasternak",
+    "year": 1957
+  },
+  {
+    "id": 76,
+    "name": "Lolita",
+    "author": "Vladimir Nabokov",
+    "year": 1955
+  },
+  {
+    "id": 77,
+    "name": "Pale Fire",
+    "author": "Vladimir Nabokov",
+    "year": 1962
+  },
+  {
+    "id": 78,
+    "name": "Speak, Memory",
+    "author": "Vladimir Nabokov",
+    "year": 1951
+  },
+  {
+    "id": 79,
+    "name": "The Stranger",
+    "author": "Albert Camus",
+    "year": 1942
+  },
+  {
+    "id": 80,
+    "name": "The Plague",
+    "author": "Albert Camus",
+    "year": 1947
+  },
+  {
+    "id": 81,
+    "name": "The Myth of Sisyphus",
+    "author": "Albert Camus",
+    "year": 1942
+  },
+  {
+    "id": 82,
+    "name": "The Fall",
+    "author": "Albert Camus",
+    "year": 1956
+  },
+  {
+    "id": 83,
+    "name": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "year": 1985
+  },
+  {
+    "id": 84,
+    "name": "The Blind Assassin",
+    "author": "Margaret Atwood",
+    "year": 2000
+  },
+  {
+    "id": 85,
+    "name": "Alias Grace",
+    "author": "Margaret Atwood",
+    "year": 1996
+  },
+  {
+    "id": 86,
+    "name": "Oryx and Crake",
+    "author": "Margaret Atwood",
+    "year": 2003
+  },
+  {
+    "id": 87,
+    "name": "Beloved",
+    "author": "Toni Morrison",
+    "year": 1987
+  },
+  {
+    "id": 88,
+    "name": "Song of Solomon",
+    "author": "Toni Morrison",
+    "year": 1977
+  },
+  {
+    "id": 89,
+    "name": "Sula",
+    "author": "Toni Morrison",
+    "year": 1973
+  },
+  {
+    "id": 90,
+    "name": "The Bluest Eye",
+    "author": "Toni Morrison",
+    "year": 1970
+  },
+  {
+    "id": 91,
+    "name": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "year": 1988
+  },
+  {
+    "id": 92,
+    "name": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "year": 2011
+  },
+  {
+    "id": 93,
+    "name": "Homo Deus: A Brief History of Tomorrow",
+    "author": "Yuval Noah Harari",
+    "year": 2015
+  },
+  {
+    "id": 94,
+    "name": "21 Lessons for the 21st Century",
+    "author": "Yuval Noah Harari",
+    "year": 2018
+  },
+  {
+    "id": 95,
+    "name": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "year": 2011
+  },
+  {
+    "id": 96,
+    "name": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "year": 2012
+  },
+  {
+    "id": 97,
+    "name": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+    "author": "Susan Cain",
+    "year": 2012
+  },
+  {
+    "id": 98,
+    "name": "The Life-Changing Magic of Tidying Up",
+    "author": "Marie Kondo",
+    "year": 2011
+  },
+  {
+    "id": 99,
+    "name": "Sample Book 59",
+    "author": "Someone",
+    "year": 3323
+  },
+  {
+    "id": 101,
+    "name": "Sample Book 1",
+    "author": "Someone",
+    "year": 3323
+  }
+]
