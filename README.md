@@ -25,11 +25,6 @@ This is a simple REST API built with Node.js and Express.js to manage a collecti
 - Consistent response structure: `{ success: true, data: ..., message: ... }`
 - Handles validation errors, missing fields, and file read/write failures
 
-## Testing
-
-You can test the API using tools like:
-- **Postman**
-- **cURL**
 
 ## Extra Features (Optional)
 
@@ -41,33 +36,6 @@ You can test the API using tools like:
 - Modularized routes and controllers
 - Caching to minimize file reads
 
-## Setup & Installation
-
-1. Clone the repository:
-
-```
-git clone https://github.com/your-username/your-repository.git
-```
-
-2. Navigate to the project directory:
-
-```
-cd your-repository
-```
-
-3. Install dependencies:
-
-```
-npm install
-```
-
-4. Start the server:
-
-```
-npm start
-```
-
-The server will run on `http://localhost:3000` by default.
 
 ## Project Structure
 
